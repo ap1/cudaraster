@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="cuda">
+      <UniqueIdentifier>{091b1310-299b-4a4f-84f8-b07631fbbe98}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\cudaraster\cuda\BinRaster.inl">
+      <Filter>cuda</Filter>
+    </None>
+    <None Include="src\cudaraster\cuda\CoarseRaster.inl">
+      <Filter>cuda</Filter>
+    </None>
+    <None Include="src\cudaraster\cuda\FineRaster.inl">
+      <Filter>cuda</Filter>
+    </None>
+    <None Include="src\cudaraster\cuda\PixelPipe.inl">
+      <Filter>cuda</Filter>
+    </None>
+    <None Include="src\cudaraster\cuda\TriangleSetup.inl">
+      <Filter>cuda</Filter>
+    </None>
+    <None Include="src\cudaraster\cuda\Util.inl">
+      <Filter>cuda</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\cudaraster\cuda\Constants.hpp">
+      <Filter>cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cudaraster\cuda\PixelPipe.hpp">
+      <Filter>cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cudaraster\cuda\PrivateDefs.hpp">
+      <Filter>cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cudaraster\cuda\Util.hpp">
+      <Filter>cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cudaraster\CudaRaster.hpp" />
+    <ClInclude Include="src\cudaraster\CudaSurface.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\cudaraster\CudaRaster.cpp" />
+    <ClCompile Include="src\cudaraster\CudaSurface.cpp" />
+  </ItemGroup>
+</Project>
