@@ -2,8 +2,8 @@
 Purpose of this repository
 --------------------------
 
-Personal experiments with the CUDA rasterizer. Initial commit is the 1.1
-release, downloaded from http://code.google.com/p/cudaraster/
+Research experiments using / against the CUDA rasterizer. Initial commit is the
+1.1 release, downloaded from http://code.google.com/p/cudaraster/
 
 No scenes are included.
 
