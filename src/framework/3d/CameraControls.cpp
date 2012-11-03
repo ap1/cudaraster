@@ -352,6 +352,13 @@ String CameraControls::encodeSignature(void) const
     encodeFloat(sig,        m_far);
     encodeBits(sig,         (m_keepAligned) ? 1 : 0);
     sig += "\",";
+
+    printf("camera [ %f %f %f ] # eye\n",    m_position.x,               m_position.y,               m_position.z);
+    printf("       [ %f %f %f ] # lookat\n", m_position.x + m_forward.x, m_position.y + m_forward.y, m_position.z + m_forward.z);
+    printf("       [ %f %f %f ] # up\n",     m_up.x,                     m_up.y,                     m_up.z);
+    printf("       [ 0.09   0.2  0.45 ] # ap foc foc-p\n");
+    printf("fov = %f\n", m_fov);
+
     return sig;
 }
 

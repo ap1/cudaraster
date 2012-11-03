@@ -4,3 +4,24 @@ scenes/*/*
 
 buddha.obj
 
+*.png
+
+*.user
+*.sdf
+*.suo
+
+cudacache
+ipch
+build
+
+Debug/*.*
+Release/*.*
+
+
+screenshot_*.png
+
+crsample_Win32_Debug.exe
+crsample_Win32_Release.exe
+
+state_crsample_*.dat
+

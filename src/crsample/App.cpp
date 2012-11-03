@@ -666,8 +666,8 @@ void App::firstTimeInit(void)
     // Setup default state.
 
     printf("Loading mesh...\n");
-    loadMesh("scenes/fairyforest/fairyforest.obj");
-    m_cameraCtrl.decodeSignature("W4K3y/xWk1z/qei1z/5RI4py18I6Ew18/L67z////X105CKHv/Yta4000");
+    loadMesh("scenes/buddha/buddha.obj");
+    m_cameraCtrl.decodeSignature("YaXgv14P45y/egH3y/C8jVXcw////X10aFuns/cH0ay/0");
     m_commonCtrl.saveState(m_commonCtrl.getStateFileName(1));
     failIfError();
 
