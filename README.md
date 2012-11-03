@@ -1,4 +1,14 @@
 
+Purpose of this repository
+--------------------------
+
+Personal experiments with the CUDA rasterizer. Initial commit is the 1.1
+release, downloaded from http://code.google.com/p/cudaraster/
+
+No scenes are included.
+
+Original README follows:
+
 High-Performance GPU Software Rasterization 1.1
 -----------------------------------------------
 Implementation by Tero Karras and Samuli Laine
