@@ -666,8 +666,14 @@ void App::firstTimeInit(void)
     // Setup default state.
 
     printf("Loading mesh...\n");
-    loadMesh("scenes/buddha/buddha.obj");
-    m_cameraCtrl.decodeSignature("YaXgv14P45y/egH3y/C8jVXcw////X10aFuns/cH0ay/0");
+
+    //// --- buddha benchmark --- //
+    //loadMesh("scenes/buddha/buddha.obj");
+    //m_cameraCtrl.decodeSignature("YaXgv14P45y/egH3y/C8jVXcw////X10aFuns/cH0ay/0");
+    // --- fairy benchmark --- //
+    loadMesh("scenes/fairyforest2/fairyforest.obj");
+    m_cameraCtrl.decodeSignature("cIxMx/sK/Ty/EFu3z/5m9mWx/YPA5z/8///m007toC10AnAHx///Uy200");
+
     m_commonCtrl.saveState(m_commonCtrl.getStateFileName(1));
     failIfError();
 

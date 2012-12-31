@@ -6,3 +6,5 @@ del *.filters
 del crsample_Win32_Debug.exe
 del crsample_Win32_Release.exe
 del state_crsample_*.dat
+del *.opensdf
+del crsample.exe
